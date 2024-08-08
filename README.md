@@ -25,6 +25,7 @@
 5. **Submit Your Repository Link:**
 
    - Submit the link to your repository using this form - https://forms.gle/WLBJwweKuHDUAZc29
+   - **Ensure that you either keep the repository public or give read access to vansh@sarvan.eu. Else, your submission will not be accepted.**
 
 ## Figma Design
 
