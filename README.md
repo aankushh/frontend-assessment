@@ -1,46 +1,57 @@
-# Frontend Design Assignment
+# art-gallery
 
-## Instructions
+This template should help get you started developing with Vue 3 in Vite.
 
-1. **Create Your Repository:**
+## Recommended IDE Setup
 
-   - Click on the "Use this template" button at the top of this repository to create your own repository from this template.
-2. **Clone Your Repository:**
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-   - Clone your repository to your local machine:
-     ```bash
-     git clone https://YOUR-GIT-HOST/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
-     ```
-3. **Implement the Design:**
+## Customize configuration
 
-   - Replicate the provided Figma design using the frontend framework of your choice.
-4. **Push Your Changes:**
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-   - Push your changes to your GitHub repository:
-     ```bash
-     git add .
-     git commit -m "Initial implementation"
-     git push origin main
-     ```
-5. **Submit Your Repository Link:**
+## Project Setup
 
-   - Submit the link to your repository using this form - https://forms.gle/WLBJwweKuHDUAZc29
-   - **Ensure that you either keep the repository public or give read access to vansh@sarvan.eu. Else, your submission will not be accepted.**
+```sh
+npm install
+```
 
-## Figma Design
+### Compile and Hot-Reload for Development
 
-https://www.figma.com/design/mW0qBuALhYrajea8Z3duQx/Frontend-Assessment?t=MwBjkomL7PkRErb2-1
+```sh
+npm run dev
+```
 
-## Requirements
+### Compile and Minify for Production
 
-- Use any frontend framework you are comfortable with (React, Angular, Vue, etc.)
-- Write clean, maintainable, and self-documented code.
+```sh
+npm run build
+```
 
-## Evaluation Criteria
+### Run Unit Tests with [Vitest](https://vitest.dev/)
 
-- Design match percentage.
-- Attention to detail.
-- Code quality.
-- Performance.
+```sh
+npm run test:unit
+```
 
-There is no expectation but you will catch our eye amongst the pool of candidates if you go above and beyond in any manner (e.g. responsive design, live demo link, setup documentation, etc.)
+### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
+
+```sh
+npm run test:e2e:dev
+```
+
+This runs the end-to-end tests against the Vite development server.
+It is much faster than the production build.
+
+But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
+
+```sh
+npm run build
+npm run test:e2e
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
